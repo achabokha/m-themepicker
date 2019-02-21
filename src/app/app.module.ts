@@ -1,3 +1,4 @@
+import { ThemeStorage } from './theme-picker/theme-storage/theme-storage';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ThemePickerModule } from './theme-picker';
 
 @NgModule({
   declarations: [
@@ -27,9 +29,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    ThemePickerModule
   ],
-  providers: [],
+  providers: [ThemeStorage],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
