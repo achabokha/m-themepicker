@@ -4,7 +4,7 @@ Extracted from Angular Material documentation web site (https://material.angular
 
 It is nice. Everyone should use it!
 
-![banner](https://github.com/achabokha/m-themepicke/banner.png "Banner")
+![banner](https://github.com/achabokha/m-themepicker/blob/master/banner.png "Banner")
 
 
 ## Installation 
