@@ -1,19 +1,31 @@
-# m-themepicker
+# Angular Material Theme Picker 
+
+Extracted from Angular Material documentation web site (https://material.angular.io/). A bit modified. 
+
+It is nice. Everyone should use it!
+
+![banner](https://github.com/achabokha/m-themepicke/banner.png "Banner")
+
 
 ## Installation 
 
-Run `git clone https://github.com/achabokha/m-themepicker.git` to get source code.
-
-Run `ng install` to install NPM packages
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+1. Clone source code
+```shell
+git clone https://github.com/achabokha/m-themepicker
 ```
+
+2. Install npm packages
+```shell
+npm install
+```
+
+## Run Development server
+
+Run Angular CLI server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+```shell
+npm start
+```
+
+
+
